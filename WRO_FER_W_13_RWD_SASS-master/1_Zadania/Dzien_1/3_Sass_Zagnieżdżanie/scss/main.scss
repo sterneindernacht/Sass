@@ -1,0 +1,16 @@
+.main-width {
+    ul>li {
+        background-color: yellow;
+    }
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    li{
+        padding-left: 10px;
+        background-color: pink;
+   }
+}
+header{
+    border: 1px solid black;
+}

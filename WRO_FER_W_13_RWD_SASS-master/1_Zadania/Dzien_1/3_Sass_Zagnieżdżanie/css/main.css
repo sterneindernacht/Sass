@@ -1,0 +1,13 @@
+.main-width ul > li {
+  background-color: yellow; }
+
+.menu li {
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  align-items: flex-start; }
+
+header {
+  border: 1px solid black; }
