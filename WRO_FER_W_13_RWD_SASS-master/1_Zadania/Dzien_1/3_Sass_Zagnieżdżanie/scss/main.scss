@@ -1,11 +1,10 @@
 .main-width {
-    ul>li {
-        background-color: yellow;
+    width: 1000px;
+    ul>:nth-child(1) {
+        background-color: red;
     }
 }
-.menu {
-    display: flex;
-    justify-content: space-between;
+.menu ul{
     li{
         padding-left: 10px;
         background-color: pink;
@@ -13,4 +12,19 @@
 }
 header{
     border: 1px solid black;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.menu { 
+    display: flex;
+    background-color: aqua;
+}
+
+ul>li {
+padding:20px;
+list-style-type: none;
 }
