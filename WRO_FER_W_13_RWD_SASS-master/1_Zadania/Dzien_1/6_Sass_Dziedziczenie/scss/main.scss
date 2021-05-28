@@ -1,0 +1,23 @@
+%clearfix {
+    &::before {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    
+      &::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+}
+.left_box {
+    width: 100px;
+    border-left: 2px solid red;
+    @extend %clearfix;
+}
+.right_box {
+width: 100px;
+border-right: 2px solid red;
+@extend %clearfix;
+}

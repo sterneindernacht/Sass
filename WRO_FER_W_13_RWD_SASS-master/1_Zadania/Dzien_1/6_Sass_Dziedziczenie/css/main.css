@@ -1,0 +1,18 @@
+.left_box, .right_box {
+  color: #ffaffa; }
+  .left_box::before, .right_box::before {
+    content: "";
+    clear: both;
+    display: table; }
+  .left_box::after, .right_box::after {
+    content: "";
+    clear: both;
+    display: table; }
+
+.left_box {
+  width: 100px;
+  border-left: 2px solid red; }
+
+.right_box {
+  width: 100px;
+  border-right: 2px solid red; }
