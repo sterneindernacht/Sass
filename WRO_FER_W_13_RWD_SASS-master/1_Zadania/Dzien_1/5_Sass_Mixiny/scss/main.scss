@@ -1,3 +1,33 @@
+@mixin clearfix() {
+  &::before {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin border ($font) {
+  font-size: $font;
+  border-radius: 5px;
+}
+
+@mixin dialogBox ($backgroundColor,$width) {
+  width: $width;
+  padding: 10px;
+  background: $backgroundColor;
+  border: 1px solid black;
+  margin: 40px auto;
+
+  &::after {
+    border: 1px solid green;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -79,4 +109,20 @@ header {
 
 .dialog__text {
   font-size: 14px;
+}
+.left_box {
+  border-left: 1px solid blue;
+  @include clearfix();
+}
+.right_box {
+  border-right: 1px solid blue;
+  @include clearfix();
+}
+
+header {
+  @include border(50px);
+}
+
+.dialog {
+  @include dialogBox(lightgreen, 300px)
 }

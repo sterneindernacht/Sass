@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: white; }
+
+form {
+  margin: 20px auto;
+  text-align: center; }
+
+form input {
+  margin: 10px 0; }
+
+header {
+  margin: 20px 0; }
+
+.main-width {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 40px; }
+
+.main-width a {
+  float: left;
+  display: block;
+  font-size: 150%;
+  line-height: 50px;
+  width: 50%; }
+
+.main-width ul {
+  float: left;
+  list-style: none;
+  width: 50%; }
+  .main-width ul:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.main-width li {
+  float: left;
+  margin-right: 20px;
+  font-size: 100%;
+  line-height: 50px; }
+
+.main-width:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.dialog {
+  width: 300px;
+  padding: 10px;
+  background: green;
+  border: 1px solid black;
+  margin: 40px auto; }
+
+.dialog__title {
+  font-size: 30px;
+  margin-bottom: 10px; }
+
+.dialog__text {
+  font-size: 14px; }
+
+.left_box {
+  border-left: 1px solid blue; }
+  .left_box::before {
+    content: "";
+    clear: both;
+    display: table; }
+  .left_box::after {
+    content: "";
+    clear: both;
+    display: table; }
+
+.right_box {
+  border-right: 1px solid blue; }
+  .right_box::before {
+    content: "";
+    clear: both;
+    display: table; }
+  .right_box::after {
+    content: "";
+    clear: both;
+    display: table; }
+
+header {
+  font-size: 50px;
+  border-radius: 5px; }
+
+.dialog {
+  width: 300px;
+  padding: 10px;
+  background: lightgreen;
+  border: 1px solid black;
+  margin: 40px auto; }
+  .dialog::after {
+    border: 1px solid green; }
