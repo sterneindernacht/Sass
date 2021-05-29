@@ -1,0 +1,24 @@
+$lineHeight: 25px;
+$fontSize: 16px;
+
+@mixin drawItem($shape, $backgroundColor) {
+ @if $shape =='circle' {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     background-color: $backgroundColor;
+ } @else if $shape =='rectangle' {
+     height: 200px;
+     width: 200px;
+     background-color: $backgroundColor;
+ }
+}
+
+*{
+    line-height: $lineHeight;
+    font-size: $fontSize;
+}
+
+.draw-container {
+    @include drawItem('circle', darkgreen);
+}
