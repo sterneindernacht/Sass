@@ -1,0 +1,11 @@
+body {
+  background-color: #000;
+  width: 500px; }
+
+header {
+  background-color: #f00;
+  width: 300px; }
+
+.main-width {
+  background-color: #0f0;
+  width: 100px; }

@@ -1,0 +1,17 @@
+$list: #000, #f00, #0f0;
+
+$map:(key1: 500px,
+key2: 300px,
+key3: 100px);
+body { 
+    background-color: nth($list: $list, $n:1 );
+    width: map-get($map, key1);
+}
+header {
+    background-color: nth($list: $list, $n:2 );
+    width: map-get($map, key2);
+}
+.main-width {
+    background-color: nth($list: $list, $n:3 );
+    width: map-get($map, key3);
+}
