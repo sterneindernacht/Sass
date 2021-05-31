@@ -1,0 +1,44 @@
+$color: lighten(red,40%);
+
+$lineHeight: 25px;
+$fontSize: 16px;
+
+@mixin drawItem($shape, $backgroundColor) {
+ @if $shape =='circle' {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     background-color: $backgroundColor;
+ } @else if $shape =='rectangle' {
+     height: 200px;
+     width: 200px;
+     background-color: $backgroundColor;
+ }
+}
+
+*{
+    line-height: $lineHeight;
+    font-size: $fontSize;
+}
+
+$h1: lighten(black, 15%);
+$h2: lighten($h1, 15%);
+$h3: lighten($h2, 15%);
+$h4: lighten($h3, 15%);
+
+h1 {
+    color: $h1;
+}
+h2 {
+    color: $h2;
+}
+h3 {
+    color: $h3;
+}
+h4 {
+    color: $h4;
+}
+
+.draw-container {
+    @include drawItem('circle', darkgreen);
+}
