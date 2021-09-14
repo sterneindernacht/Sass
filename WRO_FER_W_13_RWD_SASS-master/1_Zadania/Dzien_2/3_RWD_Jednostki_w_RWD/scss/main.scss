@@ -8,3 +8,18 @@
 .panel>p {
     font-size: 0.5em;
 }
+.box {
+    font-size: 2em;
+    width: 60px;
+}
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px)";
+p {
+    font-size: 16px;
+    @media #{$tablet} {
+        font-size: 18px;
+    }
+    @media #{$desktop} {
+        font-size: 20px;
+    }
+}

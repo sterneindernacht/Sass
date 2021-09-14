@@ -1,5 +1,5 @@
 .main-width {
-    width: 1000px;
+    
     ul>:nth-child(1) {
         background-color: red;
     }
@@ -28,3 +28,6 @@ ul>li {
 padding:20px;
 list-style-type: none;
 }
+ body {
+     width: 1000px;
+ }

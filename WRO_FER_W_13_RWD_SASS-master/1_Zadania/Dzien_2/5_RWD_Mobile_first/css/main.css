@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+  section {
+    background-image: url(..//images/mobile.png); } }
+@media screen and (min-width: 601px) {
+  section {
+    background-image: url(..//images/pc.png);
+  }
+}
