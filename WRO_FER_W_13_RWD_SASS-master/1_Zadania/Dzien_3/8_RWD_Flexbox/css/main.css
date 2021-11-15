@@ -65,6 +65,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 .leftSiteWhiteTemplate {
     display: inline-block;
@@ -127,19 +128,35 @@ body {
 .articles {
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 .article{
     background-color: white;
-    max-width: 500px;
+    max-width: 440px;
+    border-radius: 10px;
 }
 .picArticle {
-    width: 450px;
+    width: 440px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .articleTitle{
     font-weight: 900;
     font-size: 25px;
+    margin-left: 35px;
+    margin-top: 70px;
+    margin-bottom: 10px;
 }
 .articleText{
     font-size: 20px;
+    text-align: left;
+    margin-left: 35px;
+    color: #444444;
+    font-weight: 400;
+    
+}
+.longText{
+    padding-bottom: 100px;
+    line-height: 40px;
+    margin-top: 50px;
 }
