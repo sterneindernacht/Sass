@@ -1,12 +1,16 @@
 * {
     box-sizing: border-box;
-    background-color: #E4E4E4;
+}
+
+body {
+    
     color: #444444;
+    background-color: #E4E4E4;
 }
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 .nav {
@@ -56,10 +60,67 @@
     display: flex;
 }
 .whiteTemplate {
-    background-color: white;
     min-height: 400px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .leftSiteWhiteTemplate {
     display: inline-block;
+    margin-left: 70px;
+    max-width: 650px;
+}
+.whiteTemplateColor {
     background-color: white;
+}
+.whiteTemplateHeader {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.whiteTemplateText{
+    font-size: 50px;
+    font-weight: 450px;
+    margin-top: 15px;
+}
+.whiteTemplateButtons {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.whiteTemplateButton {
+    border-width: 0;
+    display: flex;
+    width: 400px;
+    min-height: 100px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+.whiteTemplateLink {
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#whiteTemplateFirstButton {
+    background-color: #0090c5 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+ 
+}
+#whiteTemplateSecondButton{
+    background-color: #E4E4E4;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
