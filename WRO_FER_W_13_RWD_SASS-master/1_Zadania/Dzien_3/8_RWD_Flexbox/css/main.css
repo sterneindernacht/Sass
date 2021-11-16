@@ -3,9 +3,8 @@
 }
 
 body {
-    
     color: #444444;
-    background-color: #E4E4E4;
+    background-color: #f7f7f7;
 }
 
 .container {
@@ -29,7 +28,7 @@ body {
     width: 140px;
     color: white;
     font-size: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Open Sans';
     text-decoration: none;
     padding: 5px 35px 5px 35px;
@@ -42,7 +41,7 @@ body {
 }
 .aLink{
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
 }
 .aLink:hover {
@@ -54,7 +53,7 @@ body {
     background-color: #444444;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .navButtons {
     display: flex;
@@ -65,7 +64,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .leftSiteWhiteTemplate {
     display: inline-block;
@@ -100,7 +99,7 @@ body {
     text-decoration: none;
     font-size: 40px;
     font-weight: 800;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .whiteTemplateLink {
     text-decoration: none;
@@ -116,7 +115,6 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     color: white;
- 
 }
 #whiteTemplateSecondButton{
     background-color: #E4E4E4;
@@ -133,12 +131,12 @@ body {
 .article{
     background-color: white;
     max-width: 440px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .picArticle {
     width: 440px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .articleTitle{
     font-weight: 900;
@@ -153,10 +151,37 @@ body {
     margin-left: 35px;
     color: #444444;
     font-weight: 400;
-    
 }
 .longText{
     padding-bottom: 100px;
     line-height: 40px;
     margin-top: 50px;
+}
+#secondSection{
+    background-color: white;
+    max-width: 100%;
+    margin-top: 50px;
+}
+.secondSectionTitle{
+    font-size: 25px;
+    font-weight: 900;
+}
+.secondSectionFlex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 70px;
+}
+.leftSideSecondSection{
+    display: flex;
+    min-width: 450px;
+    flex-direction: column;
+}
+.secondSectionPic {
+    border-radius: 15px;
+    padding: 7px 7px 7px 0px;
+}
+.moreButtonLink{
+
 }
