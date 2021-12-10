@@ -227,3 +227,15 @@ body {
 .links {
     color: #0090c5;
 }
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+}
+.randomStuff{
+    display: flex;
+    justify-content:space-between;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
