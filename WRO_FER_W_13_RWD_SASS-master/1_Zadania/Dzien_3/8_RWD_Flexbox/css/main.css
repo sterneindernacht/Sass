@@ -233,9 +233,34 @@ body {
 }
 .randomStuff{
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 80px;
 }
 .contact {
     display: flex;
     justify-content: space-between;
+}
+.randomStuffTitle {
+    font-size: 25px;
+    font-weight: 900;
+}
+.greyColor {
+    color: #696969;
+    font-size: 18px;
+    
+}
+.randomStuffText{
+    text-decoration: underline;
+
+}
+.randomStuffPadding + .randomStuffPadding {
+    padding-left: 200px;
+}
+.mediaicons {
+    font-size: 40px;
+}
+.iconsPadding {
+    padding-top: 0px;
 }
