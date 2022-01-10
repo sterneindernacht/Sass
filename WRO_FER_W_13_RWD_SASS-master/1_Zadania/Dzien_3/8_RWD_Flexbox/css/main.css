@@ -5,6 +5,7 @@
 body {
     color: #444444;
     background-color: #f7f7f7;
+    font-family: "Open Sans";
 }
 
 .container {
@@ -38,7 +39,6 @@ body {
     border: none;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 .navButton:hover {
     
@@ -50,7 +50,7 @@ body {
     color: #444444;
 }
 .aLink:hover {
-    background-color: #f7f7f7;
+    background-color: white;    
 }
 .blackButton {
     background-color: #444444;
@@ -68,6 +68,9 @@ body {
     justify-content: space-between;
     align-items: center;
     border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 6px -5px rgba(68, 68, 68, 1);
+    -moz-box-shadow: 0px 0px 6px -5px rgba(68, 68, 68, 1);
+    box-shadow: 0px 0px 6px -5px rgba(68, 68, 68, 1);
 }
 .leftSiteWhiteTemplate {
     display: inline-block;
@@ -130,6 +133,9 @@ body {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    -webkit-box-shadow: 0px 0px 6px -5px rgba(68, 68, 68, 1);
+    -moz-box-shadow: 0px 0px 6px -5px rgba(68, 68, 68, 1);
+    box-shadow: 0px 0px 6px -5px rgba(68, 68, 68, 1);
 }
 .article{
     background-color: white;
