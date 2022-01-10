@@ -38,16 +38,19 @@ body {
     border: none;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.navButton:hover {
+    
 }
 .aLink{
     text-decoration: none;
     border-radius: 10px;
     padding: 10px;
+    color: #444444;
 }
 .aLink:hover {
-    background-color: #444444;
-    color: white;
-    
+    background-color: #f7f7f7;
 }
 .blackButton {
     background-color: #444444;
